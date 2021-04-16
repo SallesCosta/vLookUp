@@ -15,6 +15,23 @@ let value = vlookup('A',tab1,c2);
 console.log(value)
 
 
+/*
+//Ex 02
+
+//Tableau A1,1 - Valeurs recomandées des coefficients PSI pour les bâtiments
+//Charges d'exploitation des bâtiments, catégorie (voi EN 1991-1.1)
+
+const c0 = ['A','B','C','D','E','F','G','H'];   
+const PSI_0 = [`0.7`,`0.7`,`0,7`,`0,7`,`1,0`,`0,7`,`0,7`,`0`]; 
+const PSI_1 = [`0,5`,`0,5`,`0,7`,`0,7`,`0,9`,`0,7`,`0,5`,`0`]; 
+const PSI_2 = [`0,3`,`0,3`,`0,6`,`0,6`,`0,8`,`0,6`,`0,3`,`0`]; 
+
+const Action = [c0, PSI_0, PSI_1,PSI_2];
+
+let value_2 = vlookup("E", Action, PSI_2)
+console.log(value_2)
+*/
+
 
 
 
